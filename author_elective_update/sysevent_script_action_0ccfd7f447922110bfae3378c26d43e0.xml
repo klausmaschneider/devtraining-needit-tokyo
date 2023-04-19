@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_script_action">
+    <sysevent_script_action action="DELETE">
+        <active>false</active>
+        <condition_script/>
+        <description/>
+        <event_name>activate.life.cycle.migration</event_name>
+        <name>Kstest</name>
+        <order>100</order>
+        <script><![CDATA[// 1. Create an object to store rows from a table
+var myObj = new GlideRecord('table_name');
+
+// 2. Build query
+myObj.addQuery('field_name','operator','value');
+myObj.addQuery('field_name','operator','value');
+
+// 3. Execute query 
+myObj.query();
+
+// 4. Process returned records
+while(myObj.next()){
+  //Logic you want to execute.  
+  //Use myObj.field_name to reference record fields
+}]]></script>
+        <synchronous>false</synchronous>
+        <sys_class_name>sysevent_script_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-17 08:40:40</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0ccfd7f447922110bfae3378c26d43e0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Kstest</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sysevent_script_action_0ccfd7f447922110bfae3378c26d43e0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-17 08:40:40</sys_updated_on>
+    </sysevent_script_action>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>e38790e5dbdee91891232f17d49619b6</instance_id>
+        <instance_name>dev172369</instance_name>
+        <name>sysevent_script_action_0ccfd7f447922110bfae3378c26d43e0</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sysevent_script_action"&gt;
+    &lt;sysevent_script_action action="INSERT_OR_UPDATE"&gt;
+        &lt;active&gt;false&lt;/active&gt;
+        &lt;condition_script/&gt;
+        &lt;description/&gt;
+        &lt;event_name&gt;activate.life.cycle.migration&lt;/event_name&gt;
+        &lt;name&gt;Kstest&lt;/name&gt;
+        &lt;order&gt;100&lt;/order&gt;
+        &lt;script&gt;&lt;![CDATA[// 1. Create an object to store rows from a table
+var myObj = new GlideRecord('table_name');
+
+// 2. Build query
+myObj.addQuery('field_name','operator','value');
+myObj.addQuery('field_name','operator','value');
+
+// 3. Execute query 
+myObj.query();
+
+// 4. Process returned records
+while(myObj.next()){
+  //Logic you want to execute.  
+  //Use myObj.field_name to reference record fields
+}]]&gt;&lt;/script&gt;
+        &lt;synchronous&gt;false&lt;/synchronous&gt;
+        &lt;sys_class_name&gt;sysevent_script_action&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2023-04-17 08:40:40&lt;/sys_created_on&gt;
+        &lt;sys_domain&gt;global&lt;/sys_domain&gt;
+        &lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;
+        &lt;sys_id&gt;0ccfd7f447922110bfae3378c26d43e0&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_name&gt;Kstest&lt;/sys_name&gt;
+        &lt;sys_overrides/&gt;
+        &lt;sys_package display_value="NeedIt" source="x_58872_needit"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_package&gt;
+        &lt;sys_policy/&gt;
+        &lt;sys_scope display_value="NeedIt"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_scope&gt;
+        &lt;sys_update_name&gt;sysevent_script_action_0ccfd7f447922110bfae3378c26d43e0&lt;/sys_update_name&gt;
+        &lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2023-04-17 08:40:40&lt;/sys_updated_on&gt;
+    &lt;/sysevent_script_action&gt;
+&lt;/record_update&gt;</payload>
+        <payload_hash>915756177</payload_hash>
+        <record_name>Kstest</record_name>
+        <reverted_from/>
+        <source>47fbfe21975e211067b4b898c253af71</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-19 13:59:02</sys_created_on>
+        <sys_id>290cf261975e211067b4b898c253af57</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18799cfc0dd0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-19 13:59:02</sys_updated_on>
+        <type>Script Action</type>
+        <update_guid>e50cf261385e211066f7ff4e7a218f57</update_guid>
+        <update_guid_history>e50cf261385e211066f7ff4e7a218f57:915756177</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-19 15:19:16</sys_created_on>
+        <sys_db_object display_value="" name="sysevent_script_action">sysevent_script_action</sys_db_object>
+        <sys_id>0a4485ed9e664628837f5367f8c63349</sys_id>
+        <sys_metadata>0ccfd7f447922110bfae3378c26d43e0</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Kstest</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sysevent_script_action_0ccfd7f447922110bfae3378c26d43e0</sys_update_name>
+        <sys_update_version display_value="sysevent_script_action_0ccfd7f447922110bfae3378c26d43e0">290cf261975e211067b4b898c253af57</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-19 15:19:16</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
